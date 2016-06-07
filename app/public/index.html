@@ -1,0 +1,227 @@
+<doctype html>
+<html>
+<head>
+    <title>
+     Grocery Getter
+    </title>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+</head>
+<body>
+<div class="slider">
+  <ul class="slides">
+    <li>
+      <img src="http://ilv-pullzone1.ilovevegan.netdna-cdn.com/wp-content/uploads/2014/01/building-a-vegan-grocery-list.jpg"> <!-- random image -->
+      <div class="caption center-align">
+        <h3>Eat, Love, Pray</h3>
+        <h5 class="light grey-text text-lighten-3">We can help you with one. For the other two, you're on your own.</h5>
+      </div>
+    </li>
+    <li>
+      <img src="http://zerodollarstuff.com/wp-content/uploads/2016/05/ways-to-save-on-groceries.jpg"> <!-- random image -->
+      <div class="caption left-align">
+        <h3>Eating Well Takes Planning</h3>
+        <h5 class="light grey-text text-lighten-3">Grocery-Getter is the solution</h5>
+      </div>
+    </li>
+    <li>
+      <img src="http://videos.usatoday.net/Brightcove2/29906170001/2014/04/29906170001_3421211444001_Cleaning-Supplies-Thinkstock-smaller.jpg?pubId=29906170001"> <!-- random image -->
+      <div class="caption right-align">
+        <h3>Reduce Trips to the Store</h3>
+        <h5 class="light grey-text text-lighten-3">Take your "To Get" List to the Next Level</h5>
+      </div>
+    </li>
+    <li>
+      <img src="http://www.foodandnutrition.org/images/cache/cache_c/cache_8/cache_e/evolving_ethnic_aisle-e42f0e8c.jpeg?ver=1424894126&aspectratio=1.5"> <!-- random image -->
+      <div class="caption center-align">
+        <h3>Grocery Getter Gets It!!</h3>
+        <h5 class="light grey-text text-lighten-3">We'll even show you what to do with it.</h5>
+      </div>
+    </li>
+  </ul>
+</div>
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">assignment</i>Produce</div>
+      <div class="collapsible-body"><p>Produce items</p>      
+      <table>
+        <thead>
+          <tr>
+              <th date-field="remove">Remove</th>
+              <th data-field="id">Name</th>
+              <th data-field="name">Item Name</th>
+              <th data-field="price">Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><input type="checkbox" id="test1" /><label for="test1"></label></td>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" id="test2" /><label for="test2"></label></td>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" id="test3" /><label for="test3"></label></td>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">assignment</i>Grocery</div>
+      <div class="collapsible-body"><p>Grocery items</p>
+      <table>
+        <thead>
+          <tr>
+              <th data-field="id">Name</th>
+              <th data-field="name">Item Name</th>
+              <th data-field="price">Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><input type="checkbox" id="test4" /><label for="test4"></label></td>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" id="test5" /><label for="test5"></label></td>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" id="test6" /><label for="test6"></label></td>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">assignment</i>Supplies</div>
+      <div class="collapsible-body"><p>Cleaning, bath, and other supplies</p>
+      <table>
+        <thead>
+          <tr>
+              <th data-field="id">Name</th>
+              <th data-field="name">Item Name</th>
+              <th data-field="price">Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><input type="checkbox" id="test7" /><label for="test7"></label></td>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" id="test8" /><label for="test8"></label></td>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" id="test9" /><label for="test9"></label></td>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>      
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">assignment</i>Projects</div>
+      <div class="collapsible-body"><p>Required items for latest projects</p>
+      <table>
+        <thead>
+          <tr>
+              <th data-field="id">Name</th>
+              <th data-field="name">Item Name</th>
+              <th data-field="price">Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><input type="checkbox" id="test10" /><label for="test10"></label></td>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+          <td><input type="checkbox" id="test11" /><label for="test11"></label></td>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+          <td><input type="checkbox" id="test12" /><label for="test12"></label></td>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </li>
+  </ul>
+<a class="waves-effect waves-light btn modal-trigger" href="#modal1"><i class="material-icons left">cloud</i>Add New Item</a>
+<a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Remove Selected</a>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Item Name</label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+  </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+
+$(document).ready(function(){
+    $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    });
+
+    $('.slider').slider({full_width: true});
+  });
+</script>
